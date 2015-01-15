@@ -1,0 +1,11 @@
+public class Ar
+{
+   public static void main(String[] args)
+   {
+      System.out.println(" # #    A   RRR  ");
+      System.out.println("#####  A A  R  R ");
+      System.out.println(" # #  AAAAA RRR  ");
+      System.out.println("##### A   A R RR ");
+      System.out.println(" # #  A   A R   R");
+   }
+}
