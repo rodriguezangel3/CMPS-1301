@@ -1,0 +1,25 @@
+//FEET TO INCHES
+import java.util.Scanner;
+public class InchesToFeet
+{
+   public static void main (String[] args)
+   {
+     final int INCHES_PER_FOOT = 12;
+     int inches_in = 0;
+     int inches_out = 0;
+     int feet = 0;
+        
+     //output
+     Scanner input=new Scanner(System.in);
+     
+     System.out.print("Please enter # of inches>>");
+     inches_in=input.nextInt();
+     
+     //final calculations
+     inches_out=inches_in%12;
+     feet=inches_in/12;
+     
+     System.out.println(inches_in + " inches is " + feet + " feet " + inches_out + " inches.");
+    ; 
+   }
+}
