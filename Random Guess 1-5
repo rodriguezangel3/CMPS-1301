@@ -1,0 +1,20 @@
+import javax.swing.JOptionPane;
+
+public class RandomGuessMatch
+{
+   public static void main (String[] args)
+   {
+      //select random # from 1-5
+      int random= 1+(int)(Math.random() * 5);
+      //ask user to guess the #
+      int guess = 0;
+      String userInput = JOptionPane.showInputDialog(null,
+      "Guess a # between 1 and 5");
+      guess=Integer.parseInt(userInput);
+      //Display a message that indicates the difference
+      //of the random number and the user's guess   
+      JOptionPane.showMessageDialog(null,"The difference between" +
+      "the number and your guess is" + (random-guess) + ".");
+              
+   }
+}
