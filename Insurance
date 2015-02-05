@@ -1,0 +1,32 @@
+import javax.swing.JOptionPane;
+
+   public class Insurance
+   {
+      public static void main (String[]args)
+      {
+      //Later change to prompt and get user input
+      int currentYear=0;
+      int birthYear=0;
+      
+       String userInput = JOptionPane.showInputDialog(null,"What year are we in?"); 
+       currentYear=Integer.parseInt(userInput);
+       
+       String userInput2 = JOptionPane.showInputDialog(null,"What year were you born?"); 
+       birthYear=Integer.parseInt(userInput2);      
+        
+
+      
+      //Call method on next line
+            
+      System.out.println("Your Premium amount is " +premiumAmount );
+      
+      }
+      //Method Decloration
+      public static int premiumAmount(int currentYear, int birthYear)
+      {
+         //RETURN STATMENT AT THE END OF METHOD
+       
+      return ((currentYear-birthYear)/10 +15)*20);      
+      }
+      
+   }
