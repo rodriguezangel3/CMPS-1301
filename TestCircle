@@ -1,0 +1,28 @@
+public class TestCircle
+{
+   public static void main (String[]args)
+   {
+         
+      circle1=new Circle();
+      circle1.setradius(0.1);
+      
+      System.out.println("The radius is "+circle1.getRadius()+" units.");
+      System.out.println("The diameter is "+circle1.getDiameter()+" units.");
+      System.out.println("The area is "+circle1.getArea()+" units.");
+
+      circle2=new Circle();
+      circle2.setradius(10);
+      
+      System.out.println("The radius is "+circle2.getRadius()+" units.");
+      System.out.println("The diameter is "+circle2.getDiameter()+" units.");
+      System.out.println("The area is "+circle2.getArea()+" units.");
+      
+      circle3=new Circle();
+            
+      System.out.println("The radius is "+circle3.getRadius()+" units.");
+      System.out.println("The diameter is "+circle3.getDiameter()+" units.");
+      System.out.println("The area is "+circle3.getArea()+" units.");
+      
+
+   }
+}
